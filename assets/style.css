@@ -35,12 +35,14 @@ header {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  align-items: center;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+padding: 31px 0;
 }
 
 .past {
@@ -69,4 +71,28 @@ header {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+/** MEDIA QUERY FOR TABLETS AND SMALLER DEVICES  **/
+/* This will be applied on any screen 768px and bellow */
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 17%;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+  }
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
 }
