@@ -31,7 +31,7 @@ The following image shows the web application's appearance and functionality:
 
 ## 💻 USAGE
 
-[Visit the webpage here]()
+[Visit the webpage here](https://astranag.github.io/Daily-Planner-App/)
 
 This app runs advanced JavaScript, integrates third-party APIs, and more. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. It has a responsive, clean, polished user interface that adapts to multiple screen sizes.
 
