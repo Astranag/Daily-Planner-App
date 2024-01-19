@@ -55,3 +55,13 @@ $(document).ready(function () {
 
     timeTracker();
 })
+
+// This code is a JavaScript function called timeTracker() that is used to add CSS classes to elements with the class "time-block" based on the current time. It uses the Moment.js library to get the current hour and then loops through each element with the class "time-block" to determine whether its associated hour has passed, is current, or is in the future.
+
+// The function first gets the current number of hours using moment().hour() and then loops through each time block using the jQuery .each() function. For each time block, it extracts the associated hour by splitting the ID attribute of the element and converting the second part to an integer.
+
+// The function then checks whether the block time is less than, equal to, or greater than the current time. If the block time is less than the current time, it removes the "future" and "present" classes and adds the "past" class. If the block time is equal to the current time, it removes the "past" and "future" classes and adds the "present" class. If the block time is greater than the current time, it removes the "present" and "past" classes and adds the "future" class.
+
+// After the time tracking function is defined, the code retrieves items from local storage for each time block and sets the value of the corresponding textarea element. Finally, the timeTracker() function is called to apply the appropriate CSS classes to each time block based on the current time.
+
+// Overall, this code is used to create a time tracking application that highlights the current time block and indicates whether time blocks have passed or are in the future.
